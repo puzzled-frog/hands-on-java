@@ -650,14 +650,14 @@ Map<String, Runnable> commands = Map.of(
 
 ### Benefits Summary
 
-| Aspect | Procedural (Switch) | Declarative (Map) |
-|--------|-------------------|-------------------|
-| Readability | Verbose, repetitive | Compact, clear |
-| Maintainability | Change code structure | Change data |
-| Extensibility | Add more cases | Add more entries |
-| Testability | Test control flow | Test data directly |
-| Flexibility | Hardcoded | Can load externally |
-| Performance | O(1) to O(n) | O(1) hash lookup |
+| Aspect          | Procedural (Switch)   | Declarative (Map)   |
+|-----------------|-----------------------|---------------------|
+| Readability     | Verbose, repetitive   | Compact, clear      |
+| Maintainability | Change code structure | Change data         |
+| Extensibility   | Add more cases        | Add more entries    |
+| Testability     | Test control flow     | Test data directly  |
+| Flexibility     | Hardcoded             | Can load externally |
+| Performance     | O(1) to O(n)          | O(1) hash lookup    |
 
 ---
 

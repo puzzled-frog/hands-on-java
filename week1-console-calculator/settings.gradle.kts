@@ -1,1 +1,0 @@
-rootProject.name = "week1-console-calculator"

@@ -1,0 +1,193 @@
+{
+  "categories": [
+    {
+      "id": "project-and-tooling",
+      "name": "Project & Tooling",
+      "tags": [
+        "project-setup",
+        "project-structure",
+        "build-tool-gradle",
+        "dependency-management",
+        "version-control-git",
+        "ide-intellij",
+        "cli-usage"
+      ]
+    },
+    {
+      "id": "language-fundamentals",
+      "name": "Language Fundamentals",
+      "tags": [
+        "syntax-basics",
+        "variables-and-types",
+        "primitive-types",
+        "reference-types",
+        "operators-arithmetic",
+        "operators-logical",
+        "operators-relational",
+        "type-conversions",
+        "strings-basics"
+      ]
+    },
+    {
+      "id": "control-flow-and-methods",
+      "name": "Control Flow & Methods",
+      "tags": [
+        "conditionals-if",
+        "switch-statements",
+        "switch-expressions",
+        "loops-for",
+        "loops-while",
+        "loops-do-while",
+        "loops-nested",
+        "break-and-continue",
+        "methods-basics",
+        "method-parameters",
+        "overloading",
+        "varargs",
+        "return-values"
+      ]
+    },
+    {
+      "id": "object-orientation",
+      "name": "Object Orientation",
+      "tags": [
+        "classes-and-objects",
+        "constructors",
+        "fields-and-properties",
+        "encapsulation",
+        "getters-and-setters",
+        "immutability",
+        "inheritance",
+        "polymorphism",
+        "interfaces",
+        "abstract-classes",
+        "static-members",
+        "packages-and-imports",
+        "records"
+      ]
+    },
+    {
+      "id": "collections-generics-streams",
+      "name": "Collections, Generics & Streams",
+      "tags": [
+        "arrays",
+        "lists",
+        "sets",
+        "maps",
+        "queues-and-deques",
+        "collection-interfaces",
+        "generics-basics",
+        "generics-bounded-types",
+        "streams-basics",
+        "streams-intermediate-ops",
+        "streams-terminal-ops",
+        "optionals"
+      ]
+    },
+    {
+      "id": "error-handling",
+      "name": "Error Handling & Robustness",
+      "tags": [
+        "exceptions-basics",
+        "checked-exceptions",
+        "unchecked-exceptions",
+        "try-catch",
+        "try-with-resources",
+        "custom-exceptions",
+        "input-validation",
+        "defensive-programming",
+        "null-handling"
+      ]
+    },
+    {
+      "id": "io-integration-persistence",
+      "name": "I/O, Integration & Persistence",
+      "tags": [
+        "console-io",
+        "file-io",
+        "serialization-json",
+        "http-clients",
+        "rest-api-consumption",
+        "jdbc-basics",
+        "jpa-basics",
+        "spring-data-jpa",
+        "database-migrations"
+      ]
+    },
+    {
+      "id": "testing-and-quality",
+      "name": "Testing & Code Quality",
+      "tags": [
+        "unit-testing",
+        "integration-testing",
+        "test-driven-development",
+        "junit",
+        "assertj-or-hamcrest",
+        "test-doubles-and-mocking",
+        "testcontainers",
+        "code-coverage",
+        "property-based-testing"
+      ]
+    },
+    {
+      "id": "spring-and-web",
+      "name": "Spring & Web Development",
+      "tags": [
+        "spring-boot-basics",
+        "spring-web",
+        "rest-api-design",
+        "controllers-and-routing",
+        "dependency-injection",
+        "configuration-and-profiles",
+        "validation-annotations",
+        "spring-security-basics"
+      ]
+    },
+    {
+      "id": "concurrency-and-performance",
+      "name": "Concurrency & Performance",
+      "tags": [
+        "threads-basics",
+        "executors",
+        "concurrent-collections",
+        "synchronization",
+        "locks-and-atomics",
+        "completable-future",
+        "parallel-streams",
+        "profiling-jfr",
+        "performance-tuning"
+      ]
+    },
+    {
+      "id": "architecture-and-patterns",
+      "name": "Architecture & Patterns",
+      "tags": [
+        "layered-architecture",
+        "hexagonal-architecture",
+        "ports-and-adapters",
+        "domain-modeling",
+        "transaction-scripts",
+        "repositories",
+        "services",
+        "dtos-and-mappers",
+        "validation-layering",
+        "error-handling-strategy",
+        "clean-boundaries"
+      ]
+    },
+    {
+      "id": "craftsmanship-and-dx",
+      "name": "Craftsmanship & Developer Experience",
+      "tags": [
+        "clean-code",
+        "refactoring",
+        "logging",
+        "observability-basics",
+        "configuration-management",
+        "api-design",
+        "cli-design",
+        "domain-language"
+      ]
+    }
+  ]
+}

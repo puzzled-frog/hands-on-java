@@ -1,0 +1,24 @@
+{
+  "challenges": [
+    {
+      "id": "temperature-converter",
+      "title": "Temperature Converter",
+      "order": 0,
+      "description": "temperature-converter/README.md#description",
+      "requirements": "temperature-converter/docs/requirements.md",
+      "topics": [
+        "console-io",
+        "input-validation",
+        "loops-while",
+        "try-catch",
+        "methods-basics",
+        "switch-expressions",
+        "enums",
+        "records"
+      ],
+      "mySolution": "temperature-converter/src",
+      "designNotes": "temperature-converter/docs/design-notes.md",
+      "status": "written"
+    }
+  ]
+}
