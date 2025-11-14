@@ -6,6 +6,10 @@ A progressive learning track for Java through building real applications.
 
 This repository contains a sequence of hands-on coding challenges designed to teach Java concepts by solving practical problems. Each challenge increases in difficulty and introduces new language features, design patterns, and best practices.
 
+You'll find my solutions in each project's `src/` directory, though I strongly encourage you to attempt your own implementation first. The real learning comes from wrestling with the problem yourself, not from reading someone else's answer.
+
+Keep in mind that my solutions are by no means the definitive "right" way—there are always multiple valid approaches to any problem. I welcome contributions through pull requests whenever you spot mistakes or see opportunities for improvement.
+
 ## Structure
 
 - **`curriculum.json`** - Master curriculum file consumed by the learning website
