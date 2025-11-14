@@ -1,6 +1,90 @@
 {
   "challenges": [
     {
+      "id": "hello-calculator",
+      "title": "Hello Calculator",
+      "order": 1,
+      "description": "01-hello-calculator/README.md#description",
+      "requirements": "01-hello-calculator/docs/requirements.md",
+      "topics": [
+        "project-setup",
+        "syntax-basics",
+        "variables-and-types",
+        "primitive-types",
+        "operators-arithmetic",
+        "conditionals-if",
+        "console-io"
+      ],
+      "mySolution": "01-hello-calculator/src",
+      "designNotes": "01-hello-calculator/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "number-guesser",
+      "title": "Number Guesser",
+      "order": 2,
+      "description": "02-number-guesser/README.md#description",
+      "requirements": "02-number-guesser/docs/requirements.md",
+      "topics": [
+        "loops-while",
+        "conditionals-if",
+        "input-validation",
+        "console-io"
+      ],
+      "mySolution": "02-number-guesser/src",
+      "designNotes": "02-number-guesser/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "todo-list-manager",
+      "title": "Todo List Manager",
+      "order": 3,
+      "description": "03-todo-list-manager/README.md#description",
+      "requirements": "03-todo-list-manager/docs/requirements.md",
+      "topics": [
+        "lists",
+        "classes-and-objects",
+        "encapsulation",
+        "methods-basics",
+        "loops-for"
+      ],
+      "mySolution": "03-todo-list-manager/src",
+      "designNotes": "03-todo-list-manager/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "csv-data-analyzer",
+      "title": "CSV Data Analyzer",
+      "order": 4,
+      "description": "04-csv-data-analyzer/README.md#description",
+      "requirements": "04-csv-data-analyzer/docs/requirements.md",
+      "topics": [
+        "file-io",
+        "strings-basics",
+        "arrays",
+        "loops-for"
+      ],
+      "mySolution": "04-csv-data-analyzer/src",
+      "designNotes": "04-csv-data-analyzer/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "contact-book",
+      "title": "Contact Book",
+      "order": 5,
+      "description": "05-contact-book/README.md#description",
+      "requirements": "05-contact-book/docs/requirements.md",
+      "topics": [
+        "file-io",
+        "maps",
+        "serialization-json",
+        "classes-and-objects"
+      ],
+      "mySolution": "05-contact-book/src",
+      "designNotes": "05-contact-book/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
       "id": "temperature-converter",
       "title": "Temperature Converter",
       "order": 6,
@@ -19,6 +103,381 @@
       "mySolution": "06-temperature-converter/src",
       "designNotes": "06-temperature-converter/docs/design-notes.md",
       "status": "written"
+    },
+    {
+      "id": "rpg-battle-system",
+      "title": "Text-Based RPG Battle System",
+      "order": 7,
+      "description": "07-rpg-battle-system/README.md#description",
+      "requirements": "07-rpg-battle-system/docs/requirements.md",
+      "topics": [
+        "inheritance",
+        "polymorphism",
+        "abstract-classes",
+        "interfaces",
+        "encapsulation"
+      ],
+      "mySolution": "07-rpg-battle-system/src",
+      "designNotes": "07-rpg-battle-system/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "expense-tracker",
+      "title": "Expense Tracker with Reports",
+      "order": 8,
+      "description": "08-expense-tracker/README.md#description",
+      "requirements": "08-expense-tracker/docs/requirements.md",
+      "topics": [
+        "file-io",
+        "serialization-json",
+        "generics-basics",
+        "streams-basics",
+        "enums"
+      ],
+      "mySolution": "08-expense-tracker/src",
+      "designNotes": "08-expense-tracker/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "library-management",
+      "title": "Library Management System",
+      "order": 9,
+      "description": "09-library-management/README.md#description",
+      "requirements": "09-library-management/docs/requirements.md",
+      "topics": [
+        "domain-modeling",
+        "optionals",
+        "custom-exceptions",
+        "maps",
+        "enums"
+      ],
+      "mySolution": "09-library-management/src",
+      "designNotes": "09-library-management/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "http-log-parser",
+      "title": "HTTP Log Parser",
+      "order": 10,
+      "description": "10-http-log-parser/README.md#description",
+      "requirements": "10-http-log-parser/docs/requirements.md",
+      "topics": [
+        "file-io",
+        "streams-basics",
+        "streams-intermediate-ops",
+        "streams-terminal-ops",
+        "maps"
+      ],
+      "mySolution": "10-http-log-parser/src",
+      "designNotes": "10-http-log-parser/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "unit-testing-refactoring",
+      "title": "Unit Testing & Refactoring Challenge",
+      "order": 11,
+      "description": "11-unit-testing-refactoring/README.md#description",
+      "requirements": "11-unit-testing-refactoring/docs/requirements.md",
+      "topics": [
+        "junit",
+        "test-driven-development",
+        "test-doubles-and-mocking",
+        "refactoring",
+        "clean-code"
+      ],
+      "mySolution": "11-unit-testing-refactoring/src",
+      "designNotes": "11-unit-testing-refactoring/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "note-taking-api",
+      "title": "RESTful Note-Taking API",
+      "order": 12,
+      "description": "12-note-taking-api/README.md#description",
+      "requirements": "12-note-taking-api/docs/requirements.md",
+      "topics": [
+        "spring-boot-basics",
+        "rest-api-design",
+        "controllers-and-routing",
+        "validation-annotations",
+        "dtos-and-mappers"
+      ],
+      "mySolution": "12-note-taking-api/src",
+      "designNotes": "12-note-taking-api/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "book-catalog-api",
+      "title": "Book Catalog API with Database",
+      "order": 13,
+      "description": "13-book-catalog-api/README.md#description",
+      "requirements": "13-book-catalog-api/docs/requirements.md",
+      "topics": [
+        "spring-data-jpa",
+        "jpa-basics",
+        "repositories",
+        "rest-api-design"
+      ],
+      "mySolution": "13-book-catalog-api/src",
+      "designNotes": "13-book-catalog-api/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "recipe-sharing-platform",
+      "title": "Recipe Sharing Platform",
+      "order": 14,
+      "description": "14-recipe-sharing-platform/README.md#description",
+      "requirements": "14-recipe-sharing-platform/docs/requirements.md",
+      "topics": [
+        "spring-data-jpa",
+        "domain-modeling",
+        "repositories",
+        "transaction-scripts"
+      ],
+      "mySolution": "14-recipe-sharing-platform/src",
+      "designNotes": "14-recipe-sharing-platform/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "weather-dashboard",
+      "title": "Weather Dashboard Backend",
+      "order": 15,
+      "description": "15-weather-dashboard/README.md#description",
+      "requirements": "15-weather-dashboard/docs/requirements.md",
+      "topics": [
+        "http-clients",
+        "rest-api-consumption",
+        "spring-boot-basics",
+        "error-handling-strategy"
+      ],
+      "mySolution": "15-weather-dashboard/src",
+      "designNotes": "15-weather-dashboard/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "job-board-api",
+      "title": "Job Board API",
+      "order": 16,
+      "description": "16-job-board-api/README.md#description",
+      "requirements": "16-job-board-api/docs/requirements.md",
+      "topics": [
+        "spring-security-basics",
+        "domain-modeling",
+        "services",
+        "layered-architecture"
+      ],
+      "mySolution": "16-job-board-api/src",
+      "designNotes": "16-job-board-api/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "ecommerce-order-service",
+      "title": "E-commerce Order Service",
+      "order": 17,
+      "description": "17-ecommerce-order-service/README.md#description",
+      "requirements": "17-ecommerce-order-service/docs/requirements.md",
+      "topics": [
+        "domain-modeling",
+        "services",
+        "transaction-scripts",
+        "spring-data-jpa"
+      ],
+      "mySolution": "17-ecommerce-order-service/src",
+      "designNotes": "17-ecommerce-order-service/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "jwt-auth-service",
+      "title": "JWT Authentication Service",
+      "order": 18,
+      "description": "18-jwt-auth-service/README.md#description",
+      "requirements": "18-jwt-auth-service/docs/requirements.md",
+      "topics": [
+        "spring-security-basics",
+        "configuration-management",
+        "custom-exceptions",
+        "validation-annotations"
+      ],
+      "mySolution": "18-jwt-auth-service/src",
+      "designNotes": "18-jwt-auth-service/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "notification-system",
+      "title": "Real-time Notification System",
+      "order": 19,
+      "description": "19-notification-system/README.md#description",
+      "requirements": "19-notification-system/docs/requirements.md",
+      "topics": [
+        "executors",
+        "services",
+        "layered-architecture",
+        "error-handling-strategy"
+      ],
+      "mySolution": "19-notification-system/src",
+      "designNotes": "19-notification-system/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "multi-tenant-saas",
+      "title": "Multi-tenant SaaS Application",
+      "order": 20,
+      "description": "20-multi-tenant-saas/README.md#description",
+      "requirements": "20-multi-tenant-saas/docs/requirements.md",
+      "topics": [
+        "spring-data-jpa",
+        "layered-architecture",
+        "domain-modeling",
+        "spring-security-basics"
+      ],
+      "mySolution": "20-multi-tenant-saas/src",
+      "designNotes": "20-multi-tenant-saas/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "file-processing-pipeline",
+      "title": "File Processing Pipeline",
+      "order": 21,
+      "description": "21-file-processing-pipeline/README.md#description",
+      "requirements": "21-file-processing-pipeline/docs/requirements.md",
+      "topics": [
+        "completable-future",
+        "executors",
+        "file-io",
+        "error-handling-strategy"
+      ],
+      "mySolution": "21-file-processing-pipeline/src",
+      "designNotes": "21-file-processing-pipeline/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "api-gateway",
+      "title": "API Gateway & Service Orchestration",
+      "order": 22,
+      "description": "22-api-gateway/README.md#description",
+      "requirements": "22-api-gateway/docs/requirements.md",
+      "topics": [
+        "http-clients",
+        "rest-api-consumption",
+        "error-handling-strategy",
+        "completable-future"
+      ],
+      "mySolution": "22-api-gateway/src",
+      "designNotes": "22-api-gateway/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "search-engine",
+      "title": "Search Engine with Elasticsearch",
+      "order": 23,
+      "description": "23-search-engine/README.md#description",
+      "requirements": "23-search-engine/docs/requirements.md",
+      "topics": [
+        "rest-api-design",
+        "http-clients",
+        "domain-modeling",
+        "api-design"
+      ],
+      "mySolution": "23-search-engine/src",
+      "designNotes": "23-search-engine/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "distributed-cache",
+      "title": "Distributed Cache System",
+      "order": 24,
+      "description": "24-distributed-cache/README.md#description",
+      "requirements": "24-distributed-cache/docs/requirements.md",
+      "topics": [
+        "concurrent-collections",
+        "synchronization",
+        "performance-tuning",
+        "configuration-management"
+      ],
+      "mySolution": "24-distributed-cache/src",
+      "designNotes": "24-distributed-cache/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "observability-platform",
+      "title": "Observability Platform",
+      "order": 25,
+      "description": "25-observability-platform/README.md#description",
+      "requirements": "25-observability-platform/docs/requirements.md",
+      "topics": [
+        "logging",
+        "observability-basics",
+        "configuration-management",
+        "spring-boot-basics"
+      ],
+      "mySolution": "25-observability-platform/src",
+      "designNotes": "25-observability-platform/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "event-sourcing-system",
+      "title": "Event Sourcing System",
+      "order": 26,
+      "description": "26-event-sourcing-system/README.md#description",
+      "requirements": "26-event-sourcing-system/docs/requirements.md",
+      "topics": [
+        "domain-modeling",
+        "repositories",
+        "services",
+        "layered-architecture"
+      ],
+      "mySolution": "26-event-sourcing-system/src",
+      "designNotes": "26-event-sourcing-system/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "rate-limiter",
+      "title": "Advanced Rate Limiter",
+      "order": 27,
+      "description": "27-rate-limiter/README.md#description",
+      "requirements": "27-rate-limiter/docs/requirements.md",
+      "topics": [
+        "synchronization",
+        "locks-and-atomics",
+        "concurrent-collections",
+        "spring-web"
+      ],
+      "mySolution": "27-rate-limiter/src",
+      "designNotes": "27-rate-limiter/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "batch-processing-system",
+      "title": "Batch Processing System",
+      "order": 28,
+      "description": "28-batch-processing-system/README.md#description",
+      "requirements": "28-batch-processing-system/docs/requirements.md",
+      "topics": [
+        "spring-boot-basics",
+        "configuration-management",
+        "error-handling-strategy",
+        "streams-basics"
+      ],
+      "mySolution": "28-batch-processing-system/src",
+      "designNotes": "28-batch-processing-system/docs/design-notes.md",
+      "status": "draft"
+    },
+    {
+      "id": "social-feed",
+      "title": "Full-Stack Social Feed",
+      "order": 29,
+      "description": "29-social-feed/README.md#description",
+      "requirements": "29-social-feed/docs/requirements.md",
+      "topics": [
+        "spring-data-jpa",
+        "domain-modeling",
+        "rest-api-design",
+        "services",
+        "performance-tuning"
+      ],
+      "mySolution": "29-social-feed/src",
+      "designNotes": "29-social-feed/docs/design-notes.md",
+      "status": "draft"
     }
   ]
 }
