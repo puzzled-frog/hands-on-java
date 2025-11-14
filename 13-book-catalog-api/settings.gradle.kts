@@ -1,0 +1,2 @@
+rootProject.name = "book-catalog-api"
+
