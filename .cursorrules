@@ -90,6 +90,10 @@ When asked to write design notes, Cursor must:
   - "One potential pitfall is…"
   - "An alternative design is…"
   - "Consider weighing these trade-offs…"
+- Review design notes from previous challenges (lower-numbered challenges) to understand what has already been covered.
+- Focus on concepts and patterns newly introduced in the current challenge; avoid repeating topics thoroughly explained in earlier design notes.
+- When referencing a concept covered previously, briefly mention it and point to the earlier challenge's design notes rather than re-explaining in full.
+- Each challenge's design notes should build upon and extend previous knowledge, not rehash foundational concepts.
 
 The tone should be exploratory, reflective, and educational.
 
