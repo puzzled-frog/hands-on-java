@@ -22,25 +22,25 @@ public class MainStretch {
             System.out.print("Enter second number: ");
             double num2 = scanner.nextDouble();
 
-            // Validate operator
-            if (!operator.equals("+") && !operator.equals("-") && 
-                !operator.equals("*") && !operator.equals("/")) {
-                System.out.println("Error: Invalid operator. Please use +, -, *, or /");
+            // Validate operator (early return pattern - exit immediately on invalid input)
+            if (!operator.matches("[+\\-*/]")) {
+                System.out.println("Error: Invalid operator '" + operator + "'. Please use +, -, *, or /");
                 return;
             }
 
-            // Check for division by zero
+            // Check for division by zero (another early return for error handling)
             if (operator.equals("/") && num2 == 0) {
                 System.out.println("Error: Cannot divide by zero");
                 return;
             }
 
-            // Calculate result
+            // Calculate result using switch expression (cleaner than if-else chain)
             double result = switch (operator) {
                 case "+" -> num1 + num2;
                 case "-" -> num1 - num2;
                 case "*" -> num1 * num2;
                 case "/" -> num1 / num2;
+                // Should never reach here due to validation above, but defensive programming
                 default -> throw new IllegalStateException("Unexpected operator: " + operator);
             };
 

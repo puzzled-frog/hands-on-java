@@ -34,8 +34,8 @@ This version is meant to get you writing code quickly. Encountering edge cases a
 ### MainStretch.java - The Enhanced Version
 
 Builds on the basics and adds **best practices and modern Java features**:
-- **Input validation**: Checks for invalid operators before processing
-- **Error handling**: Graceful handling of division by zero
+- **Input validation**: Checks for invalid operators using regex pattern matching
+- **Error handling**: Graceful handling of division by zero with clear error messages
 - **Try-with-resources**: Automatic resource management with `try (Scanner scanner = ...)`
 - **Switch expressions**: Modern operator dispatch using switch expressions (Java 14+)
 - **Early returns**: Clean error handling without nested conditions
@@ -44,7 +44,8 @@ Builds on the basics and adds **best practices and modern Java features**:
 
 **New concepts demonstrated:**
 - Resource management patterns
-- Input validation strategies
+- Input validation with regex (`.matches()`)
+- Early return pattern for error handling
 - Modern Java syntax improvements
 - Defensive programming techniques
 
@@ -119,10 +120,19 @@ Enter second number: 5
 
 **Error handling in stretch version:**
 
+Division by zero:
 ```
 Enter first number: 10
 Enter operator (+, -, *, /): /
 Enter second number: 0
 Error: Cannot divide by zero
+```
+
+Invalid operator:
+```
+Enter first number: 10
+Enter operator (+, -, *, /): %
+Enter second number: 5
+Error: Invalid operator '%'. Please use +, -, *, or /
 ```
 
