@@ -21,11 +21,11 @@ Focuses on **essential Java concepts only**:
 - **If-else chains**: Simple conditional logic using `if/else if/else`
 - **String comparison**: Using `.equals()` to compare strings
 - **Console output**: Printing results with `System.out.println()`
-- **Resource cleanup**: Explicit `scanner.close()` call
 
 **What's intentionally left out:**
 - No input validation (invalid operators simply result in 0)
 - No division by zero checking (let it crash and see what happens)
+- No resource cleanup (scanner is not closed)
 - No advanced control flow or error handling
 - No try-with-resources or modern Java syntax
 
