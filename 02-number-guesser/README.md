@@ -19,17 +19,32 @@ The game demonstrates fundamental programming concepts like iteration and decisi
 
 ## How to Run
 
-Using Gradle wrapper:
+This project contains two separate implementations in two packages:
+- **Simple version**: All logic in a single `Main` class (`simple` package)
+- **Refactored version**: Logic extracted into `GuessChecker` and `GuessResult` classes (`refactored` package)
+
+### Run Simple Version
+
+```bash
+./gradlew runSimple
+```
+
+### Run Refactored Version
+
+```bash
+./gradlew runRefactored
+```
+
+### Default Run (Simple Version)
 
 ```bash
 ./gradlew run
 ```
 
-Or build and run the JAR:
+### Build Project
 
 ```bash
 ./gradlew build
-java -cp build/libs/number-guesser.jar Main
 ```
 
 ## How to Test
