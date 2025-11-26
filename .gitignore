@@ -1,2 +1,21 @@
 # Cursor IDE rules - project-specific configuration
 .cursorrules
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# MacOS
+.DS_Store
+
+# Build outputs
+/build/
+out/
+
+# Gradle
+.gradle/
+
+# VS Code
+.vscode/
