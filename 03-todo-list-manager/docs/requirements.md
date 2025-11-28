@@ -9,8 +9,8 @@ Build a console application for managing a personal todo list with tasks stored 
 - Add new tasks with a description
 - View all tasks with their status (pending/completed)
 - Mark tasks as completed
-- Delete tasks by their position or identifier
-- Display task numbers or IDs for easy reference
+- Delete tasks by their position
+- Display task numbers for easy reference
 
 ### User Interface
 - Display a menu with available operations

@@ -17,7 +17,7 @@
       ],
       "mySolution": "01-hello-calculator/src",
       "designNotes": "01-hello-calculator/docs/design-notes.md",
-      "status": "draft"
+      "status": "done"
     },
     {
       "id": "number-guesser",
@@ -33,7 +33,7 @@
       ],
       "mySolution": "02-number-guesser/src",
       "designNotes": "02-number-guesser/docs/design-notes.md",
-      "status": "draft"
+      "status": "done"
     },
     {
       "id": "todo-list-manager",
@@ -50,7 +50,7 @@
       ],
       "mySolution": "03-todo-list-manager/src",
       "designNotes": "03-todo-list-manager/docs/design-notes.md",
-      "status": "draft"
+      "status": "done"
     },
     {
       "id": "csv-data-analyzer",
@@ -102,7 +102,7 @@
       ],
       "mySolution": "06-temperature-converter/src",
       "designNotes": "06-temperature-converter/docs/design-notes.md",
-      "status": "written"
+      "status": "done"
     },
     {
       "id": "rpg-battle-system",
