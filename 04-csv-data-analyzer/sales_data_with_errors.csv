@@ -1,0 +1,12 @@
+date,product,quantity,price
+2024-01-15,Wireless Mouse,25,29.99
+2024-01-15,USB Keyboard,15,45.50
+2024-01-16,Monitor Stand,invalid,89.99
+2024-01-16,Wireless Mouse,32,29.99
+2024-01-17,HDMI Cable,50
+2024-01-17,USB Keyboard,10,45.50
+2024-01-18,Laptop Stand,12,not-a-number
+2024-01-18,Wireless Mouse,28,29.99
+2024-01-19,Monitor Stand,5,89.99
+2024-01-19,USB-C Hub,20,39.99
+
