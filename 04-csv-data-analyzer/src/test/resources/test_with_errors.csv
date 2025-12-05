@@ -1,0 +1,7 @@
+date,product,quantity,price
+2024-01-15,Mouse,10,25.50
+2024-01-16,Keyboard,invalid,45.00
+2024-01-17,Monitor,2,150.00
+bad-date,Headphones,5,30.00
+2024-01-18,USB Cable,3
+

@@ -8,6 +8,8 @@ public class SalesRecord {
     private final double price;
 
     public SalesRecord(LocalDate date, String product, int quantity, double price) {
+        if (quantity <= 0) throw new IllegalArgumentException("Quantity must be positive");
+        if (price < 0) throw new IllegalArgumentException("Price cannot be negative");
         this.date = date;
         this.product = product;
         this.quantity = quantity;
@@ -21,6 +23,10 @@ public class SalesRecord {
                 Integer.parseInt(fields[2]),
                 Double.parseDouble(fields[3])
         );
+    }
+
+    public double getPrice() {
+        return price;
     }
 
     public LocalDate getDate() {
