@@ -35,10 +35,6 @@ public class SalesRecord {
         return quantity;
     }
 
-    public double getPrice() {
-        return price;
-    }
-
     public double calculateRevenue() {
         return this.price * this.quantity;
     }

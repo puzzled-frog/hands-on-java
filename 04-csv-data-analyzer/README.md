@@ -31,7 +31,7 @@ date,product,quantity,price
 ## Features
 
 - **CSV file parsing**: Read and process sales data from files
-- **Statistical analysis**: Calculate revenue, averages, and identify top products
+- **Statistical analysis**: Calculate revenue, averages, identify top products, and track date ranges
 - **Error handling**: Gracefully handle missing files and malformed data
 - **Summary reports**: Present statistics in a clear, readable format
 - **Row-by-row processing**: Handle files of varying sizes
@@ -74,6 +74,7 @@ Enter CSV file path: sales_data.csv
 
 Sales Analysis Report
 =====================
+Date Range: 2024-01-15 to 2024-01-24
 Total Revenue: $15,246.89
 Best-Selling Product: Wireless Mouse (182 units)
 Average Sale Value: $762.34
@@ -92,6 +93,7 @@ Error at line 8: For input string: "not-a-number"
 
 Sales Analysis Report
 =====================
+Date Range: 2024-01-15 to 2024-01-19
 Total Revenue: $4,936.40
 Best-Selling Product: Wireless Mouse (85 units)
 Average Sale Value: $705.20

@@ -15,6 +15,7 @@ Read and analyze sales data from a CSV file to generate useful business statisti
 - Calculate total revenue across all sales
 - Identify the best-selling product by quantity
 - Calculate average sale value
+- Display the date range covered by the sales data (first and last sale dates)
 - Display statistics in a clear, formatted summary
 
 ### Error Handling
